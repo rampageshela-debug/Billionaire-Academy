@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="hightech.css" />
 </head>
 <body>
   <div class="noise"></div>
@@ -35,5 +36,6 @@
   <div class="modal" id="auth-modal" aria-hidden="true"><div class="modal-box"><button class="close">×</button><div class="auth-logo"><span class="brand-mark">B</span></div><div class="auth-view login-view"><span class="eyebrow">WELCOME BACK</span><h2>Log in to your<br/><em>trading desk.</em></h2><form id="login-form"><label>Email address<input type="email" placeholder="you@email.com" required /></label><label>Password<input type="password" placeholder="••••••••" required /></label><div class="form-row"><label class="check"><input type="checkbox" /> Remember me</label><a href="#">Forgot password?</a></div><button class="button full" type="submit">Log in <b>→</b></button></form><p>New to Billionaire Academy? <a class="switch-signup">Create your account</a></p></div><div class="auth-view signup-view hidden"><span class="eyebrow">START YOUR JOURNEY</span><h2>Build your<br/><em>trading edge.</em></h2><form id="signup-form"><label>Full name<input type="text" placeholder="Your full name" required /></label><label>Email address<input type="email" placeholder="you@email.com" required /></label><label>Create password<input type="password" placeholder="Minimum 8 characters" minlength="8" required /></label><button class="button full" type="submit">Create account <b>→</b></button></form><p>Already a member? <a class="switch-login">Log in</a></p></div><div class="auth-view verify-view hidden"><div class="verify-icon">✉</div><span class="eyebrow">VERIFY YOUR EMAIL</span><h2>Check your inbox.</h2><p>We’ve sent a verification link to <b id="verify-email">your email</b>. Verify your account to unlock the academy.</p><button class="ghost resend">Resend verification email</button></div></div></div>
   <a class="contact-float" href="https://wa.me/254180225832" target="_blank" aria-label="Chat on WhatsApp">◔ <span>Chat with us</span></a>
   <script type="module" src="script.js"></script>
+  <script src="command-center.js"></script>
 </body>
 </html>
