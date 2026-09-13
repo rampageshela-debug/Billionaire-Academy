@@ -10,4 +10,3 @@ Put your own assets in this folder:
 
 To show bot images, add CSS background-image URLs to .one, .two, and .three in style.css.
 For real user accounts and email verification, connect the forms in script.js to Firebase Authentication, Supabase Auth, or a secure custom backend. Never store passwords in browser JavaScript.
-
