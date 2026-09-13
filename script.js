@@ -11,4 +11,3 @@ document.querySelector('.switch-signup').onclick=()=>view('signup');document.que
 document.getElementById('signup-form').onsubmit=e=>{e.preventDefault();document.getElementById('verify-email').textContent=e.target.querySelector('[type=email]').value;view('verify')};
 document.getElementById('login-form').onsubmit=e=>{e.preventDefault();alert('Demo login successful. Connect this form to Firebase, Supabase, or your own backend for secure authentication.');modal.classList.remove('show')};
 document.querySelector('.resend').onclick=()=>alert('Demo: verification email resent. Connect an authentication provider to send real emails.');
-
